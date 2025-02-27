@@ -47,6 +47,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.eliminarButton = new System.Windows.Forms.Button();
             this.consultarButton = new System.Windows.Forms.Button();
+            this.modificarButton = new System.Windows.Forms.Button();
+            this.modinotaButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // dniBox
@@ -155,6 +157,7 @@
             this.aprobadosButton.TabIndex = 11;
             this.aprobadosButton.Text = "MOSTRAR APROBADOS";
             this.aprobadosButton.UseVisualStyleBackColor = true;
+            this.aprobadosButton.Click += new System.EventHandler(this.aprobadosButton_Click);
             // 
             // mhButton
             // 
@@ -164,6 +167,7 @@
             this.mhButton.TabIndex = 12;
             this.mhButton.Text = "MOSTRAR MH";
             this.mhButton.UseVisualStyleBackColor = true;
+            this.mhButton.Click += new System.EventHandler(this.mhButton_Click);
             // 
             // listBox1
             // 
@@ -220,12 +224,33 @@
             this.consultarButton.UseVisualStyleBackColor = true;
             this.consultarButton.Click += new System.EventHandler(this.consultarButton_Click);
             // 
+            // modificarButton
+            // 
+            this.modificarButton.Location = new System.Drawing.Point(352, 124);
+            this.modificarButton.Name = "modificarButton";
+            this.modificarButton.Size = new System.Drawing.Size(184, 23);
+            this.modificarButton.TabIndex = 21;
+            this.modificarButton.Text = "MODIFICAR CALIFICACION ";
+            this.modificarButton.UseVisualStyleBackColor = true;
+            // 
+            // modinotaButton
+            // 
+            this.modinotaButton.Location = new System.Drawing.Point(542, 124);
+            this.modinotaButton.Name = "modinotaButton";
+            this.modinotaButton.Size = new System.Drawing.Size(130, 23);
+            this.modinotaButton.TabIndex = 22;
+            this.modinotaButton.Text = "MODIFICAR NOTA";
+            this.modinotaButton.UseVisualStyleBackColor = true;
+            this.modinotaButton.Click += new System.EventHandler(this.modinotaButton_Click);
+            // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSalmon;
             this.ClientSize = new System.Drawing.Size(767, 400);
+            this.Controls.Add(this.modinotaButton);
+            this.Controls.Add(this.modificarButton);
             this.Controls.Add(this.consultarButton);
             this.Controls.Add(this.eliminarButton);
             this.Controls.Add(this.label1);
@@ -273,6 +298,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button eliminarButton;
         private System.Windows.Forms.Button consultarButton;
+        private System.Windows.Forms.Button modificarButton;
+        private System.Windows.Forms.Button modinotaButton;
     }
 }
 
