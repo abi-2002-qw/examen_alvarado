@@ -1,0 +1,10 @@
+C:\Users\Luis\source\repos\examen_alvarado\examen_alvarado\bin\Debug\examen_alvarado.exe.config
+C:\Users\Luis\source\repos\examen_alvarado\examen_alvarado\bin\Debug\examen_alvarado.exe
+C:\Users\Luis\source\repos\examen_alvarado\examen_alvarado\bin\Debug\examen_alvarado.pdb
+C:\Users\Luis\source\repos\examen_alvarado\examen_alvarado\obj\Debug\examen_alvarado.csproj.AssemblyReference.cache
+C:\Users\Luis\source\repos\examen_alvarado\examen_alvarado\obj\Debug\examen_alvarado.form.resources
+C:\Users\Luis\source\repos\examen_alvarado\examen_alvarado\obj\Debug\examen_alvarado.Properties.Resources.resources
+C:\Users\Luis\source\repos\examen_alvarado\examen_alvarado\obj\Debug\examen_alvarado.csproj.GenerateResource.cache
+C:\Users\Luis\source\repos\examen_alvarado\examen_alvarado\obj\Debug\examen_alvarado.csproj.CoreCompileInputs.cache
+C:\Users\Luis\source\repos\examen_alvarado\examen_alvarado\obj\Debug\examen_alvarado.exe
+C:\Users\Luis\source\repos\examen_alvarado\examen_alvarado\obj\Debug\examen_alvarado.pdb
